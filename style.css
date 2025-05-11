@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background: #0056b3;
+    padding: 0.5rem 0;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav .menu li {
+    position: relative;
+}
+
+nav .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav .menu .submenu {
+    display: none;
+    position: absolute;
+    background: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav .menu .submenu li {
+    width: 150px;
+}
+
+nav .menu .submenu a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav .menu li:hover > .submenu {
+    display: block;
+}
+
+footer {
+    background: #f8f9fa;
+    color: #666;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .footer-links {
+    margin-bottom: 1rem;
+}
+
+footer .footer-links a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social-media a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    color: #007BFF;
+    text-decoration: none;
+}
